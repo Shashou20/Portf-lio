@@ -1,0 +1,627 @@
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+
+/* Cabeçalho */
+.header {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  padding: 100px 0;
+}
+
+.header h1 {
+  font-size: 36px;
+}
+
+.header h2 {
+  font-size: 24px;
+  font-style: italic;
+}
+
+/* Seção "Sobre Mim" */
+.about {
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.about h3 {
+  font-size: 28px;
+  color: #333;
+}
+
+.about p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Portfólio */
+.portfolio {
+  background-color: #f9f9f9;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.portfolio h3 {
+  font-size: 28px;
+  color: #333;
+}
+
+/* Formação */
+.formacao {
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.formacao h3 {
+  font-size: 28px;
+  color:white;
+}
+
+/* Navegação */
+.menu {
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+.menu li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Formulário de Contato */
+.contact-form {
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h3 {
+  font-size: 30px;
+  color: #007BFF;
+  text-align: center; /* Centraliza o título horizontalmente */
+
+}
+
+.contact-form label {
+  font-size: 16px;
+  color: gray;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+
+.contact-form button {
+  background-color: black;
+  color:white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  
+}
+
+.contact-form button:hover {
+  background-color:#007BFF; 
+  border-radius: 20px;
+  
+}
+
+/* Rodapé */
+#rodape_final {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.barra-rodape {
+  font-size: 14px;
+}
+
+
+#sobre p {
+  font-size: 18px; 
+  color: black; 
+  line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
+}
+
+#formacao {
+  background-color: #e0e0e0; 
+  padding: 20px; 
+
+  /* Defina margens para espaçamento externo, se necessário */
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#formacao p {
+  font-size: 18px;
+  color:black; /* Cor do texto */
+  line-height: 1.5; /* Espaçamento entre linhas para melhor legibilidade */
+}
+
+/* Definindo a fonte padrão e a cor de fundo do site */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+/* Definindo o estilo do cabeçalho com vídeo de fundo e foto de perfil */
+.header {
+  position: relative;
+  width: 100%;
+  height: 50vh; /* Altura de 50% da tela */
+}
+
+/* Definindo o estilo do vídeo de fundo */
+.header video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta o vídeo para cobrir toda a área */
+}
+
+/* Definindo o estilo do conteúdo do cabeçalho */
+.header .content {
+  position: relative;
+  z-index: 1; /* Coloca o conteúdo acima do vídeo e da camada sobreposta */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Definindo o estilo dos títulos do cabeçalho */
+.header .content h1, .header .content h2 {
+  color:black;
+}
+
+/* Definindo o estilo do menu de navegação no topo do site */
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Definindo o estilo da lista do menu */
+.menu ul {
+  display: flex;
+}
+
+/* Definindo o estilo dos itens do menu */
+.menu ul li {
+  list-style-type: none; /* Remove os marcadores da lista */
+}
+
+/* Definindo o estilo dos links do menu */
+.menu ul li a {
+  display: block;
+  padding: 5px; /* Espaçamento interno dos links */
+  color: black; /* Cor dos links */
+}
+
+/* Definindo o estilo dos links do menu quando passa-se o mouse sobre eles */
+.menu ul li a:hover {
+   background-color: #a09a9a; /* Cor de fundo dos links */
+   text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+
+/* Estilos para a animação do menu */
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+
+.menu li {
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+
+.menu li:hover {
+  transform: scale(1.2);
+}
+
+.menu a {
+  text-decoration: none; 
+  color: #333; 
+}
+
+.menu a:hover {
+  /* Estilos ao passar o mouse sobre os links (hover) */
+  text-decoration: underline; /* Reaplica a decoração de texto (opcional) */
+  /* Outros estilos de hover, como mudar a cor do texto */
+  color:burlywood; /* Cor dos links ao passar o mouse (opcional) */
+}
+
+/* Estilos para o menu de navegação */
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Cor de fundo do menu */
+  color: #fff; /* Cor do texto do menu */
+  z-index: 100; 
+}
+
+/* Estilos para o menu de navegação no topo */
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 20px; /* Espaçamento horizontal entre os itens do menu */
+}
+
+
+/* Estilos para o menu de navegação no topo */
+.menu {
+  background-color: #333; /* Cor de fundo do menu */
+  color: #fff; /* Cor do texto do menu */
+  padding: 10px; /* Espaçamento interno para melhorar a legibilidade */
+  text-align: center; 
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 20px; 
+}
+
+.menu a {
+  text-decoration: none;
+  color: #141313; /* Cor dos links de menu */
+}
+
+.menu a:hover {
+  text-decoration: underline; /* Sublinha o link ao passar o mouse */
+}
+.menu {
+  background-color: #333; 
+  color: #fff; 
+  padding: 10px; 
+  text-align: center; 
+  margin-right: 20px; 
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* Estilos para o menu de navegação */
+.menu {
+  background-color: #333; /* Cor de fundo do menu */
+  color: #fff; /* Cor do texto do menu */
+  padding: 10px; /* Espaçamento interno para melhorar a legibilidade */
+  text-align: center; /* Centraliza o menu horizontalmente */
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/* Estilos para o vídeo */
+video {
+  width: 60%; /* Define a largura do vídeo */
+}
+
+html, body {
+  height: 100%;
+  margin: 10;
+  padding: 0;
+  background-color:bisque;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: center; /* Centraliza os links horizontalmente */
+}
+
+.menu ul li {
+  display: inline; /* Faz com que os itens da lista apareçam na mesma linha */
+  margin: 0 20px; /* Espaçamento horizontal entre os itens do menu */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333; /* Cor do texto do menu */
+  /* Outros estilos, como tamanho da fonte, etc. */
+}
+
+
+/* Estilos para o vídeo de fundo */
+.header video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Estilos para o conteúdo do cabeçalho */
+.header .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Estilos para a foto de perfil */
+.header .content img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+  margin-top: 60px; 
+}
+
+/* Estilos para o menu de navegação no topo */
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu ul li a:hover {
+  background-color: #e0e0e0;
+}
+
+
+/* Estilos para o menu de navegação */
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos gerais da página */
+body {
+  background-color: #d8d0d0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para o menu de navegação */
+.menu {
+  background-color: #222020fd;
+  color: #fff;
+  text-align: center;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.menu li {
+  margin: 0 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#portfolio {
+  background-color: #f7f7f7; /* Cor de fundo da seção de portfólio */
+  padding: 50px; /* Espaçamento interno para o conteúdo */
+
+  /* Defina margens para espaçamento externo, se necessário */
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#sobre {
+  background-color: #f4f4f4; 
+  padding: 100px; 
+
+  /* Defina margens para espaçamento externo, se necessário */
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+
+/* Estilizar o título da seção "Sobre Mim" */
+#sobre h3 {
+  font-size: 30px; 
+  color: #007BFF; 
+  text-align: center; 
+  margin-top: 20px; 
+  margin-bottom: 20px; 
+}
+ 
+
+/* Aplicar estilos à foto de perfil */
+img[src="img/foto perfil.jpg"] {
+  display: block; /* Definir a imagem como um elemento de bloco */
+  margin: 0 auto; /* Centralizar a imagem horizontalmente */
+  color: #0078d4; /* Cor do título em azul */
+  
+}
+/* Estilo para o título (h1) */
+h1 {
+  font-family: Arial, sans-serif; /* Fonte do título */
+  
+  
+}
+/* Estilo para o subtítulo (h2) */
+h2 {
+ 
+  font-family: Georgia, serif; /* Fonte do subtítulo */
+
+
+}
+
+.content img {
+  border-radius: 50%; /* Isso fará com que a foto do perfil fique redonda */
+  border: 3px solid #fff; /* Isso adicionará uma borda branca ao redor da foto */
+  box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5); /* Isso adicionará uma sombra à foto */
+}
+.header video {
+  height: 50vh; 
+}
+
+.header video {
+  border: 3px solid #fff; 
+}
+
+.header video {
+  width: 99%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+/* Estilizar o elemento com o ID "sobre mim" */
+#sobre-mim {
+  font-family: Arial, sans-serif; 
+  font-size: 18px; 
+  text-align: justify; 
+  padding: 20px; 
+  margin: 20px; 
+  background-color: #f4f4f4; 
+  border: 2px solid #ccc; 
+  border-radius: 10px; 
+}
+
+/* Estilizar o título da seção "Sobre Mim" */
+#sobre-mim h3 {
+  font-size: 50px; /* Tamanho da fonte para o título */
+  color: #007BFF; /* Cor do título */
+  text-align: left; /* Alinhe o título à esquerda */
+  margin-top: 10px; 
+  margin-bottom: 10px; /* Espaço abaixo do título */
+}
+
+/* Ajuste a margem do título para o texto do "Sobre Mim" */
+#sobre-mim p {
+  margin-top: 50px;
+}
+
+#formacao {
+  background-color: #f4f4f4; 
+  padding: 60px; /* Espaçamento interno para o conteúdo */
+}
+/* Estilizar o título da seção "Formacao" */
+#formacao h3 {
+  font-size: 30px; 
+  color: #007BFF;
+  text-align: center; 
+  margin-top: 10px; 
+  margin-bottom: 10px; 
+}
+#formacao p {
+  margin-top: 30px; 
+
+}
+
+#portfolio p {
+  margin-top: 50px
+}
+.galeria {
+  display: flex;
+  align-items: center;
+  overflow: hidden; /* Remova a rolagem horizontal */
+  padding: 10px; /* Adicione o afastamento desejado da borda */
+
+}
+h2 {
+  text-align: center; /* Centraliza o texto */
+  margin-bottom: 20px; /* Adicione margem inferior para separar o título das imagens */
+  color: #007BFF; 
+  font-size: 30px;
+}
+
+
+.galeria img {
+  max-width: 17%; /* Define uma largura máxima para as imagens */
+  height: auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border: 3px solid #fff;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+  transform: scale(1); /* Redefine a escala original */
+  transition: transform 0.3s ease;
+  margin: 15px; /* Adicione a margem desejada para afastar das bordas */
+  margin-top: 100px; /* Adicione a margem superior desejada aqui */
+}
+
+.galeria img:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+

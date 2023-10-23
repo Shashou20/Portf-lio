@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title> Portfólio Leisha Angrand</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho com vídeo de fundo e foto de perfil -->
+  <div class="header" id="home">
+    <video src="img/fundo.mp4"autoplay muted loop></video>
+    <div class="overlay"></div>
+    <div class="content">
+      <img src="img/foto  perfil.jpg" alt="Foto de perfil">
+      <h1>Leisha Angrand</h1>
+      <h2>Apaixonada pela arte e pela vida</h2>
+    </div>
+  </div>
+
+  <!-- Seção sobre mim com texto e hobbies -->
+  <div class="about" id="sobre">
+    <h3>Sobre mim</h3>
+    <p>Fora do ambiente profissional e acadêmico, tenho uma série de hobbies. 
+      Adoro música e frequentemente me dedico a tocar instrumentos e descobrir novos sons. 
+      A arte é outra paixão minha, seja apreciando obras em galerias ou expressando minha criatividade através de projetos 
+      artísticos. Além disso, a fotografia me permite capturar momentos preciosos e contar histórias por meio das lentes da minha câmera.  
+      Nos momentos de lazer, gosto de passear ao ar livre, explorar novos lugares e desfrutar da natureza. Acredito que a vida é uma aventura, 
+      e estou sempre em busca de novas experiências e aprendizados.</p>
+    </p>
+    </div>
+
+   <!-- Seção de formação com informações acadêmicas -->
+   <div class="formacao" id="formacao">
+    <h3>Formação</h3>
+  <p>Sou estudante de Análise e Desenvolvimento de Sistemas (ADS), uma área que me fascina e onde estou constantemente buscando conhecimento para me aprimorar. 
+    Minha paixão por tecnologia e resolução de problemas me levou a ingressar nesse campo empolgante. Além dos meus estudos, também tenho experiência anterior 
+    como colaborador em uma casa de leitura, onde pude compartilhar minha paixão pela literatura e auxiliar os leitores a descobrirem novos mundos através dos livros. 
+    Atualmente, trabalho como teleatendente em uma clínica de fisioterapia, onde adquiro conhecimento sobre a área de saúde e bem-estar. 
+    É gratificante poder contribuir para o cuidado e recuperação dos pacientes. Vale ressaltar que sou fluente em três idiomas: o francês, que é minha língua materna, 
+    o crioulo, também parte integral da minha cultura, e o português, que domino com fluência. 
+    </p>
+  <br>
+
+  </div>
+
+  <section id="portfolio">
+		<h2 class="titulo">Portfólio</h2>
+		<div class="galeria">
+			<img src="img/foto2.jpg" alt="#">
+			<img src="img/foto 3.jpg" alt="#">
+			<img src="img/foto 4.jpg" alt="#">
+			<img src="img/foto5.jpg" alt="#">
+      <img src="img/foto6.jpg"alt="#">
+		
+		</div>
+   
+	</section>
+
+  <nav class="menu">
+    <ul>
+      <li><a href="#home">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#formacao">Formação</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+  </nav>
+
+  <!-- Formulário de Contato -->
+  <form id="contact-form" action="processar_formulario.php" method="post" class="contact-form">
+    <h3>Contato</h3>
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">E-mail:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="message">Mensagem:</label>
+    <textarea id="message" name="message" required></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <footer id="rodape_final">
+    <div class="barra-rodape">
+      ₢ Todos os direitos reservados. Criado por Leisha Angrand. 2023
+    </div>
+  </footer>
+</body>
+</html>
+
+
